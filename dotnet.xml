@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Beta>False</Beta>
-<Category>Network:Voip</Category>
-  <Name>micconos-dotnet</Name>
+  <Beta>True</Beta>
+<Category>Productivity: Tools:</Category>
+  <Name>.NET Core</Name>
   <Description>
     It is very easy to get started with .NET Core on your platform of choice.
 	For ASP.NET Core 1.0 + .NET Core RC instructions, please go to the Get ASP.NET Core 1.0 website.
@@ -25,14 +25,6 @@
     </Publish>
   </Networking>
   <Environment>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
   </Environment>
   <Data>
     <Volume>
@@ -42,7 +34,7 @@
     </Volume>
   </Data>
   <WebUI></WebUI>
-  <Banner>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/teamspeak-banner.png</Banner>
-  <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/teamspeak-icon.png</Icon>
+  <Banner>https://dotnet.github.io/images/Logo_DotNet.png</Banner>
+  <Icon>https://dotnet.github.io/images/Logo_DotNet.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
