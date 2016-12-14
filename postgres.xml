@@ -10,19 +10,30 @@
   The PostgreSQL object-relational database system provides reliability and data integrity.Overview
   </Overview>
   <Support>http://lime-technology.com/forum/index.php?topic=38930.0</Support>
-  <Registry>https://hub.docker.com/_/postgres/</Registry>
-  <Repository>postgres</Repository>
+  <Registry>https://registry.hub.docker.com/u/sameersbn/postgresql/</Registry>
+  <GitHub>https://github.com/sameersbn/docker-postgresql</GitHub>
+  <Repository>sameersbn/postgresql</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
     <Variable>
-      <Name>POSTGRES_PASSWORD</Name>
+      <Name>PG_PASSWORD</Name>
       <Value>password</Value>
+    </Variable>
+    <Variable>
+      <Name>PG_TRUST_LOCALNET</Name>
+      <Value>true</Value>
     </Variable>
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
-    <Publish/>
+    <Publish>
+      <Port>
+        <HostPort>5432</HostPort>
+        <ContainerPort>5432</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Data>
     <Volume>
