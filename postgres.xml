@@ -2,7 +2,7 @@
 <Container>
   <Beta>False</Beta>
   <Category>Network:Management Productivity: Tools:</Category>
-  <Name>postgresql</Name>
+  <Name>micconos-postgresql</Name>
   <Description>
   The PostgreSQL object-relational database system provides reliability and data integrity.Description
   </Description>
