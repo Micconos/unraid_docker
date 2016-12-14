@@ -9,7 +9,7 @@
   <Overview>
   The PostgreSQL object-relational database system provides reliability and data integrity.Overview
   </Overview>
-  <Support>http://lime-technology.com/forum/index.php?topic=38930.0</Support>
+  <Support></Support>
   <Registry>https://registry.hub.docker.com/u/sameersbn/postgresql/</Registry>
   <GitHub>https://github.com/sameersbn/docker-postgresql</GitHub>
   <Repository>sameersbn/postgresql</Repository>
