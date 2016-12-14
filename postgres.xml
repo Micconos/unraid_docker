@@ -16,11 +16,7 @@
   <Privileged>false</Privileged>
   <Environment>
     <Variable>
-      <Name>DB_USER</Name>
-      <Value>gitlab</Value>
-    </Variable>
-    <Variable>
-      <Name>DB_PASS</Name>
+      <Name>POSTGRES_PASSWORD</Name>
       <Value>password</Value>
     </Variable>
   </Environment>
